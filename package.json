@@ -1,0 +1,17 @@
+{
+   "name": "rhv-wrapanapi",
+   "types": ["pack"],
+   "version": "0.0.1",
+   "homepage": "https://github.com/kedark3/rhev-wrapanapi-pack",
+   "author": "Kedar Kulkarni",
+   "description": "RHV checks making use of wrapanapi",
+   "repository": "https://github.com/kedark3/rhev-wrapanapi-pack",
+   "keywords": [
+      "pack",
+      "rhvm"
+   ],
+   "dependencies": {
+      "shinken": ">=1.4"
+   },
+   "license": "AGPL"
+}

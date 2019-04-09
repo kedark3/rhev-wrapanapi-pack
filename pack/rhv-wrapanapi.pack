@@ -1,0 +1,32 @@
+{
+"name": "rhv-wrapanapi",
+
+"description": "Checks for Red Hat Virtualization using wrapanapi",
+
+"path":"virtualization/",
+
+"templates": ["rhvmanager"],
+
+"macros":{
+         "_RHV_VM_COUNT_WARN": {"type":"integer",
+                             "description":"Number of VMs in RHV"
+                             },
+         "_RHV_VM_COUNT_CRIT": {"type":"integer",
+                             "description":"Number of VMs in
+                             RHV"
+                             },
+         "_RHV_STORAGE_DOMAIN_USAGE_WARN": {"type":"fraction",
+                             "description":"Storage domain usage"
+                             },
+         "_RHV_STORAGE_DOMAIN_USAGE_CRIT": {"type":"fraction",
+                             "description":"Storage domain usage"
+                             },
+         "_RHV_LOCKED_DISKS_WARN": {"type":"integer",
+                             "description":"Number of locked disks in RHV"
+                             },
+         "_RHV_LOCKED_DISKS_CRIT": {"type":"integer",
+                             "description":"Number of locked disks in
+                             RHV"
+                             },
+         }
+}
