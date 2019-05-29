@@ -1,3 +1,4 @@
 [submodule "libexec"]
 	path = libexec
 	url = https://github.com/kedark3/check-rhv
+	branch = master
