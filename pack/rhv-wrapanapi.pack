@@ -28,5 +28,12 @@
                              "description":"Number of locked disks in
                              RHV"
                              },
+         "_RHV_VM_DISTRIBUTION_WARN": {"type":"integer",
+                             "description":"Warn Number of VMs on each host in RHV"
+                             },
+         "_RHV_VM_DISTRIBUTION_CRIT": {"type":"integer",
+                             "description":"Crit Number of VMs on each host
+                             RHV"
+                             },
          }
 }
