@@ -35,5 +35,12 @@
                              "description":"Crit Number of VMs on each host
                              RHV"
                              },
+         "_RHV_TEMPLATE_COUNT_WARN": {"type":"integer",
+                             "description":"Number of Templates in RHV"
+                             },
+         "_RHV_TEMPLATE_COUNT_CRIT": {"type":"integer",
+                             "description":"Number of Templates in
+                             RHV"
+                             },
          }
 }
